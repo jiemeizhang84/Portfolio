@@ -18,6 +18,10 @@
 </head>
 <body>
     
+    <div class="loader">
+        <div class="inner"></div>
+    </div>
+    
     <div id="slides">
 
         <div class="overlay"></div>
@@ -44,7 +48,7 @@
     </div>
 
     <nav id="navigation" class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Jiemei Zhang</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -53,16 +57,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#skills">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#stats">Stats</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Disabled</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
             </ul>
         </div>
@@ -81,8 +88,9 @@
 
                 <div class="col-md-7">
                     <h4>My name is Jiemei Zhang</h4>
-                    <p>I have 7 years’ data/product life cycle management experience in an automobile company, assisted project team to make decisions on data configuration, release, planning and used SAP on a daily basis. This experience showed me the importance and values of proper data collection and analysis in engineering/manufacturing world, it triggered my curiosity on how data influences the business decision before a project launch. </p>
-                    <p>Therefore, I go into a 6 months’ professional training of data science and visualization to enhance and supplement my data skills. Now I have solid grasp of SQL, and all modern data tools, in order to efficiently collect and analyze the data, then properly visualize them to justify business decision making. You can find some projects/applications built by myself on my resume. Meanwhile my previous supervisor role can ensure a collaborative team working mind and organizational skills.</p>
+                    <P>I was born in Shanghai, China; have got my master degree of electrical engineering in Toulouse, France; now live in San Diego, USA.</P>
+                    <p>I have 7 years’ data/product life cycle management experience in an automobile company, assisted project team to make decisions on data configuration, release, planning. This experience showed me the importance and values of proper data management and analysis in engineering/manufacturing world, it triggered my curiosity on how data influences the business decision before a project launch. </p>
+                    <p>Therefore, I attend a professional training of data science and visualization to enhance and supplement my data skills. Now I have solid grasp of Python, SQL, HTML/CSS/JavaScript, and all modern data tools. With these tools I can efficiently collect and analyze the data, then properly visualize them to justify business decision making. You can find some projects/applications built by myself on my resume. Meanwhile my previous supervisor role can ensure a collaborative team working mind and organizational skills.</p>
 
                 </div>
 
@@ -260,6 +268,17 @@
             <p class="subHeading">Like what you see?</p>
             <h2>I'd love to hear from you!</h2>
             <a href="mailTo:jiemei.zhang.84@gmail.com" class="contactButton">GET IN TOUCH!</a>
+            <br>
+            <br>
+            <div>
+                <a href="https://www.linkedin.com/in/jiemei-zhang-1b592b105/">
+                    <img src="img/icon/linkedin.png">
+                </a>
+                <a href="https://github.com/jiemeizhang84">
+                    <img src="img/icon/github.png">
+                </a>
+            </div>
+
         </div>
     </div>
 
@@ -278,8 +297,8 @@
                     <ul id="filters">
 
                         <li><a href="#" data-filter="*" class="current">ALL</a></li>
-                        <li><a href="#" data-filter=".apps">Apps</a></li>
-                        <li><a href="#" data-filter=".me">Me</a></li>
+                        <li><a href="#" data-filter=".apps">Interactive Viz</a></li>
+                        <li><a href="#" data-filter=".map">Map</a></li>
                         <li><a href="#" data-filter=".websites">Websites</a></li>
                     </ul>
                 </div>
@@ -288,38 +307,17 @@
 
                     <ul class="items">
 
-                        <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                        <li class="apps Viz col-xs-6 col-sm-4 col-md-3 col-lg-3">
 
                             <div class="item">
                                 
-                                <img src="img/portfolio/thumbnail/apps.png">
+                                <img src="img/portfolio/thumbnail/car.png">
 
                                 <div class="icons">
-                                    <a href="img/portfolio/apps.jpeg" title="View Image" class="openButton" data-fancybox data-caption="This is the app">
+                                    <a href="img/portfolio/car.png" title="View Image" class="openButton" data-fancybox data-caption="This is the app">
                                         <i class="fa fa-search"></i>
                                     </a>
-                                    <a href="" target="_blank" class="projectLink">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-
-                                <div class="imageOverlay"></div>
-
-                            </div>
-
-                        </li>
-
-                        <li class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-                            <div class="item">
-                                
-                                <img src="img/portfolio/thumbnail/apps.png">
-
-                                <div class="icons">
-                                    <a href="img/portfolio/apps.jpeg" title="View Image" class="openButton" data-fancybox data-caption="This is the app">
-                                        <i class="fa fa-search"></i>
-                                    </a>
-                                    <a href="" target="_blank" class="projectLink">
+                                    <a href="https://jiemeizhang84.github.io/luxury-car-depreciation-interactive-viz/" target="_blank" class="projectLink">
                                         <i class="fa fa-link"></i>
                                     </a>
                                 </div>
@@ -334,34 +332,13 @@
 
                             <div class="item">
                                 
-                                <img src="img/portfolio/thumbnail/apps.png">
+                                <img src="img/portfolio/thumbnail/bb.png">
 
                                 <div class="icons">
-                                    <a href="img/portfolio/apps.jpeg" title="View Image" class="openButton" data-fancybox data-caption="This is the app">
+                                    <a href="img/portfolio/bb.png" title="View Image" class="openButton" data-fancybox data-caption="This is the app">
                                         <i class="fa fa-search"></i>
                                     </a>
-                                    <a href="" target="_blank" class="projectLink">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-
-                                <div class="imageOverlay"></div>
-
-                            </div>
-
-                        </li>
-
-                        <li class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-                            <div class="item">
-                                
-                                <img src="img/portfolio/thumbnail/apps.png">
-
-                                <div class="icons">
-                                    <a href="img/portfolio/apps.jpeg" title="View Image" class="openButton" data-fancybox data-caption="This is the app">
-                                        <i class="fa fa-search"></i>
-                                    </a>
-                                    <a href="" target="_blank" class="projectLink">
+                                    <a href="https://bb-biodiv-dashboard.herokuapp.com" target="_blank" class="projectLink">
                                         <i class="fa fa-link"></i>
                                     </a>
                                 </div>
@@ -376,13 +353,34 @@
 
                             <div class="item">
                                 
-                                <img src="img/portfolio/thumbnail/apps.png">
+                                <img src="img/portfolio/thumbnail/ufo.png">
 
                                 <div class="icons">
-                                    <a href="img/portfolio/apps.jpeg" title="View Image" class="openButton" data-fancybox data-caption="This is the app">
+                                    <a href="img/portfolio/ufo.png" title="View Image" class="openButton" data-fancybox data-caption="This is the app">
                                         <i class="fa fa-search"></i>
                                     </a>
-                                    <a href="" target="_blank" class="projectLink">
+                                    <a href="https://jiemeizhang84.github.io/JavaScript-and-DOM-Manipulation-UFO-dataset/" target="_blank" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+
+                                <div class="imageOverlay"></div>
+
+                            </div>
+
+                        </li>
+
+                        <li class="map col-xs-6 col-sm-4 col-md-3 col-lg-3">
+
+                            <div class="item">
+                                
+                                <img src="img/portfolio/thumbnail/map.png">
+
+                                <div class="icons">
+                                    <a href="img/portfolio/map.png" title="View Image" class="openButton" data-fancybox data-caption="This is the app">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <a href="https://jiemeizhang84.github.io/earthquake-map/" target="_blank" class="projectLink">
                                         <i class="fa fa-link"></i>
                                     </a>
                                 </div>
@@ -397,34 +395,13 @@
 
                             <div class="item">
                                 
-                                <img src="img/portfolio/thumbnail/apps.png">
+                                <img src="img/portfolio/thumbnail/lat.png">
 
                                 <div class="icons">
-                                    <a href="img/portfolio/apps.jpeg" title="View Image" class="openButton" data-fancybox data-caption="This is the app">
+                                    <a href="img/portfolio/lat.png" title="View Image" class="openButton" data-fancybox data-caption="This is the app">
                                         <i class="fa fa-search"></i>
                                     </a>
-                                    <a href="" target="_blank" class="projectLink">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-
-                                <div class="imageOverlay"></div>
-
-                            </div>
-
-                        </li>
-
-                        <li class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-                            <div class="item">
-                                
-                                <img src="img/portfolio/thumbnail/apps.png">
-
-                                <div class="icons">
-                                    <a href="img/portfolio/apps.jpeg" title="View Image" class="openButton" data-fancybox data-caption="This is the app">
-                                        <i class="fa fa-search"></i>
-                                    </a>
-                                    <a href="" target="_blank" class="projectLink">
+                                    <a href="https://jiemeizhang84.github.io/web_visualization_latitude/" target="_blank" class="projectLink">
                                         <i class="fa fa-link"></i>
                                     </a>
                                 </div>
@@ -439,76 +416,13 @@
 
                             <div class="item">
                                 
-                                <img src="img/portfolio/thumbnail/apps.png">
+                                <img src="img/portfolio/thumbnail/d3.png">
 
                                 <div class="icons">
-                                    <a href="img/portfolio/apps.jpeg" title="View Image" class="openButton" data-fancybox data-caption="This is the app">
+                                    <a href="img/portfolio/d3.png" title="View Image" class="openButton" data-fancybox data-caption="This is the app">
                                         <i class="fa fa-search"></i>
                                     </a>
-                                    <a href="" target="_blank" class="projectLink">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-
-                                <div class="imageOverlay"></div>
-
-                            </div>
-
-                        </li>
-
-                        <li class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-                            <div class="item">
-                                
-                                <img src="img/portfolio/thumbnail/apps.png">
-
-                                <div class="icons">
-                                    <a href="img/portfolio/apps.jpeg" title="View Image" class="openButton" data-fancybox data-caption="This is the app">
-                                        <i class="fa fa-search"></i>
-                                    </a>
-                                    <a href="" target="_blank" class="projectLink">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-
-                                <div class="imageOverlay"></div>
-
-                            </div>
-
-                        </li>
-
-                        <li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-                            <div class="item">
-                                
-                                <img src="img/portfolio/thumbnail/apps.png">
-
-                                <div class="icons">
-                                    <a href="img/portfolio/apps.jpeg" title="View Image" class="openButton" data-fancybox data-caption="This is the app">
-                                        <i class="fa fa-search"></i>
-                                    </a>
-                                    <a href="" target="_blank" class="projectLink">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-
-                                <div class="imageOverlay"></div>
-
-                            </div>
-
-                        </li>
-
-                        <li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-                            <div class="item">
-                                
-                                <img src="img/portfolio/thumbnail/apps.png">
-
-                                <div class="icons">
-                                    <a href="img/portfolio/apps.jpeg" title="View Image" class="openButton" data-fancybox data-caption="This is the app">
-                                        <i class="fa fa-search"></i>
-                                    </a>
-                                    <a href="" target="_blank" class="projectLink">
+                                    <a href="https://jiemeizhang84.github.io/interactive-data-journalism-with-d3/" target="_blank" class="projectLink">
                                         <i class="fa fa-link"></i>
                                     </a>
                                 </div>
